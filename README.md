@@ -1,11 +1,11 @@
-# Prisma Issue #xxxx
+# Prisma Issue #14954
 
-There is an issue with Prisma which causes `findUnique()` to return null
-values, even though the row definitely exists.
+> Test case for https://github.com/prisma/prisma/issues/14954
 
-- Only happens with `findUnique`.
-- Onyl when multiple `findUnique` calls are made concurrently and Prisma runs
-  them in a batched query.
+There is an issue with Prisma which causes `findUnique()` to return null values, even though the row definitely exists.
+
+- Only happens with `findUnique`
+- Only when multiple `findUnique` calls are made concurrently and Prisma runs them in a batched query.
 - Only seems to happen when a `DateTime` column is used.
 
 ### Versions Tested
