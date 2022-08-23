@@ -1,0 +1,25 @@
+{
+  "name": "prisma-issue-findunique-returns-null",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs",
+    "postinstall": "prisma generate",
+    "prisma": "prisma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stayradiated/prisma-issue-findUnique-returns-null.git"
+  },
+  "author": "George Czabania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stayradiated/prisma-issue-findUnique-returns-null/issues"
+  },
+  "homepage": "https://github.com/stayradiated/prisma-issue-findUnique-returns-null#readme",
+  "dependencies": {
+    "@prisma/client": "4.2.1",
+    "prisma": "4.2.1"
+  }
+}
